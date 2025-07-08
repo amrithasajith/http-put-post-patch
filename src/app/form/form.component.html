@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="signup-form">
+        <h1>Sign-up</h1>
+        <form #myform="ngForm" (ngSubmit)="signUp(myform.value)">
+        <input 
+        type="text"
+        class="formInput"
+        name="name"
+        placeholder="enter your name "
+        ngModel>
+        <input 
+        type="password"
+        class="formInput"
+        name="password"
+        placeholder="enter your password "
+        ngModel>
+        <input 
+        type="email"
+        class="formInput"
+        name="email"
+        placeholder="enter your email "
+        ngModel>
+        <button>SignUp</button>
+        </form>
+        
+    </div>
+</div>
+@if(statusCode !== null){
+        <div class="response-box">
+            <p><strong>Status Code:</strong> {{ statusCode }}</p>
+            <p><strong>Response:</strong> {{ responseBody | json}}</p>
+        </div>
+    }

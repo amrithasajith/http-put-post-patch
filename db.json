@@ -1,0 +1,92 @@
+{
+  "user": [
+    {
+      "id": "4aa5",
+      "name": "amritha",
+      "password": "ammu",
+      " email": "ammu123"
+    },
+    {
+      "id": "f46a",
+      "name": "amritha",
+      "password": "ammu",
+      " email": "ammu123"
+    },
+    {
+      "id": "8c2e",
+      "name": "hii",
+      "password": "how",
+      "email": "mon"
+    },
+    {
+      "id": "3ad3",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "e52a",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "5984",
+      "name": "amritha",
+      "password": "sajith",
+      "email": "shup"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "name": "Floral Cotton Dress",
+      "category": "Clothing",
+      "price": 1499,
+      "description": "A beautiful floral printed cotton dress perfect for summer.",
+      "image": "https://example.com/images/floral-dress.jpg",
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Wireless Bluetooth Earbuds",
+      "category": "Electronics",
+      "price": 2499,
+      "description": "High-quality sound with noise cancellation and long battery life.",
+      "image": "https://example.com/images/earbuds.jpg",
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Leather Wallet",
+      "category": "Accessories",
+      "price": 899,
+      "description": "Premium leather wallet with multiple compartments.",
+      "image": "https://example.com/images/wallet.jpg",
+      "inStock": false,
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "name": "Yoga Mat - Non Slip",
+      "category": "Fitness",
+      "price": 1199,
+      "description": "Durable yoga mat with extra grip and cushioning.",
+      "image": "https://example.com/images/yoga-mat.jpg",
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "id": 5,
+      "name": "Minimalist Analog Watch",
+      "category": "Watches",
+      "price": 1999,
+      "description": "Elegant analog wristwatch with a modern design.",
+      "image": "https://example.com/images/watch.jpg",
+      "inStock": true,
+      "rating": 4.4
+    }
+  ]
+}

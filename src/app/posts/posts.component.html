@@ -1,0 +1,25 @@
+
+<div class="posts-container">
+  <h1>Hello, {{ getUserName() }}!</h1>
+
+  <input
+    type="text"
+    [(ngModel)]="searchCategory"
+    (input)="filterPosts()"
+    placeholder="Search by category"
+  />
+
+  @if (filteredPosts.length === 0) {
+    <p>No posts found.</p>
+  }
+
+  @for (post of filteredPosts; track post.id) {
+    <div class="post-card">
+      <h2>{{ post.name }}</h2>
+      <p><strong>Category:</strong> {{ post.category }}</p>
+      <p><strong>Price:</strong> ₹{{ post.price }}</p>
+      <p>{{ post.description }}</p>
+      <img [src]="post.image" alt="{{ post.name }}" width="200" />
+    </div>
+  }
+</div>
