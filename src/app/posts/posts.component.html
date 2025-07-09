@@ -21,5 +21,12 @@
       <p>{{ post.description }}</p>
       <img [src]="post.image" alt="{{ post.name }}" width="200" />
     </div>
+    <div class="button-group">
+  <button (click)="deletePost(post.id)">Delete</button>
+  <button (click)="fullUpdatePost(post)">PUT (Full Update)</button>
+  <button (click)="partialUpdatePost(post)">PATCH (Partial Update)</button>
+  <button (click)="showPostWithAuthor(post.id)">Get Author</button>
+</div>
+
   }
 </div>

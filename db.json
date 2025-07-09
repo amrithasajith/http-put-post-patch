@@ -35,58 +35,39 @@
       "name": "amritha",
       "password": "sajith",
       "email": "shup"
+    },
+    {
+      "id": "7756",
+      "name": "amritha",
+      "password": "sajith",
+      "email": "12322"
+    },
+    {
+      "id": "a82d",
+      "name": "amritha",
+      "password": "sajith",
+      "email": "diii"
     }
   ],
   "posts": [
     {
-      "id": 1,
-      "name": "Floral Cotton Dress",
-      "category": "Clothing",
-      "price": 1499,
-      "description": "A beautiful floral printed cotton dress perfect for summer.",
-      "image": "https://example.com/images/floral-dress.jpg",
-      "inStock": true,
-      "rating": 4.5
+      "id": "2",
+      "name": "Updated Product Name",
+      "category": "Updated Category",
+      "price": 2999,
+      "description": "This is the updated description for the product.",
+      "image": "https://example.com/images/updated-product.jpg",
+      "title": "Updated Title"
     },
     {
-      "id": 2,
-      "name": "Wireless Bluetooth Earbuds",
-      "category": "Electronics",
-      "price": 2499,
-      "description": "High-quality sound with noise cancellation and long battery life.",
-      "image": "https://example.com/images/earbuds.jpg",
-      "inStock": true,
-      "rating": 4.7
-    },
-    {
-      "id": 3,
-      "name": "Leather Wallet",
-      "category": "Accessories",
-      "price": 899,
-      "description": "Premium leather wallet with multiple compartments.",
-      "image": "https://example.com/images/wallet.jpg",
-      "inStock": false,
-      "rating": 4.2
-    },
-    {
-      "id": 4,
-      "name": "Yoga Mat - Non Slip",
+      "id": "4",
+      "name": "Yoga Mat",
       "category": "Fitness",
-      "price": 1199,
-      "description": "Durable yoga mat with extra grip and cushioning.",
-      "image": "https://example.com/images/yoga-mat.jpg",
+      "price": 599,
+      "description": "Eco-friendly yoga mat with non-slip surface.",
+      "image": "https://example.com/images/yogamat.jpg",
       "inStock": true,
-      "rating": 4.8
-    },
-    {
-      "id": 5,
-      "name": "Minimalist Analog Watch",
-      "category": "Watches",
-      "price": 1999,
-      "description": "Elegant analog wristwatch with a modern design.",
-      "image": "https://example.com/images/watch.jpg",
-      "inStock": true,
-      "rating": 4.4
+      "rating": 4.6
     }
   ]
 }

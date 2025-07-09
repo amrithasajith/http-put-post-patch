@@ -1,31 +1,106 @@
-.posts-container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
+:host {
+  display: block;
+  padding: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
 }
 
-h1 {
+h2 {
   text-align: center;
+  margin-bottom: 1.5rem;
   color: #333;
-  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 input[type="text"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 30px;
-  font-size: 16px;
+  width: 300px;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
   border: 1px solid #ccc;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
 }
 
 .post-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 25px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: transf
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.2rem;
+  transition: transform 0.2s ease-in-out;
 }
+
+.post-card:hover {
+  transform: scale(1.02);
+}
+
+.post-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.post-category {
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  margin-bottom: 1rem;
+}
+
+.post-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+}
+button {
+  padding: 10px 16px;
+  margin: 6px 8px 12px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+button:nth-child(1) {
+  background-color: #ff4d4f; /* Delete - Red */
+  color: white;
+}
+button:nth-child(1):hover {
+  background-color: #d9363e;
+}
+
+button:nth-child(2) {
+  background-color: #1890ff; /* PUT - Blue */
+  color: white;
+}
+button:nth-child(2):hover {
+  background-color: #146dcc;
+}
+
+button:nth-child(3) {
+  background-color: #52c41a; /* PATCH - Green */
+  color: white;
+}
+button:nth-child(3):hover {
+  background-color: #3aa310;
+}
+
+button:nth-child(4) {
+  background-color: #faad14; /* Get Author - Orange */
+  color: black;
+}
+button:nth-child(4):hover {
+  background-color: #d48806;
+}
+
